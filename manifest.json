@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Hover Highlighter",
+  "version": "1.0.0",
+  "description": "Highlight the hovered category to avoid misclicks. By TalTCrypto — https://axiom.trade/@talt",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "permissions": []
+}
